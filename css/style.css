@@ -152,7 +152,20 @@ button {
 }
 
 
+/* Estilo para o botão-sair */
+.botao-sair {
+    background-color: #FF5733; /* Cor de fundo */
+    color: #FFF; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (topo/baixo, esquerda/direita) */
+    text-decoration: none; /* Remova sublinhado padrão de links */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-weight: bold; /* Texto em negrito */
+}
 
+/* Estilo de hover para o botão-sair (opcional) */
+.botao-sair:hover {
+    background-color: #FF704D; /* Alterar cor de fundo ao passar o mouse */
+}
 
 .flex-center-row {
     display: flex;

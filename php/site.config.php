@@ -23,7 +23,7 @@ function criaHeader($titulo) {
     
             <ul class="flex-center-row">
                 <li><a class="efeito-h" href="index.php">Home</a></li>
-                <li><a class="efeito-ah" href="equipes.php">Equipes</a></li>
+                <li><a class="efeito-ah" href="php\logado.php">Equipes</a></li>
                 <li><a class="efeito-h" href="entrar.php">Entrar</a></li>
             </ul>
         </header>
@@ -67,7 +67,7 @@ echo '
     <main class="flex-center-row">
         <div class="login-container" id="login-form">
             <h2>Login</h2>
-            <form action="logado.php" method="post"> 
+            <form action="php/login.php" method="post"> 
                 <label for="username">Usuário:</label>
                 <input type="text" id="username" name="username" required>
                 <label for="password">Senha:</label>
